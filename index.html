@@ -1627,7 +1627,7 @@
         checkoutBtn.addEventListener('click', () => {
             if (cart.length === 0) return;
             
-            let message = `Halo SnackDelight, saya ingin memesan:\n\n`;
+            let message = `Halo MaryamDonuts, saya ingin memesan:\n\n`;
             
             cart.forEach(item => {
                 message += `${item.title} - ${item.quantity} x Rp ${item.price.toLocaleString()} = Rp ${(item.quantity * item.price).toLocaleString()}\n`;
